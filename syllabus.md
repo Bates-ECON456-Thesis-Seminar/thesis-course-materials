@@ -24,7 +24,7 @@ Web: [kylecoombs.com](http://kylecoombs.com)
 - Office: PGill 277
 - Classroom: Roger Williams Hall 413
 
-Course Website: [https://github.com/Thesis-Seminar](https://github.com/Thesis-Seminar)  
+Course Website: [https://github.com/Bates-ECON456-Thesis-Seminar](https://github.com/Bates-ECON456-Thesis-Seminar)  
 OH Link: [https://calendar.app.google/XF36Ujpg9NcJbSD58](https://calendar.app.google/XF36Ujpg9NcJbSD58)
 
 ---
