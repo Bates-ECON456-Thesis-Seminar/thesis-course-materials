@@ -12,6 +12,8 @@ You can also tag me @kgcsport in Issues and Discussions.
 
 ### Office: Pettengill 277
 
+Full syllabus is available [here](https://github.com/Thesis-Seminar/thesis-course-materials/blob/main/syllabus.md) or as a [PDF](https://github.com/Thesis-Seminar/thesis-course-materials/blob/main/syllabus.pdf).
+
 ## Why Thesis?
 
 Building on experience from previous economics courses, students in this course produce new
