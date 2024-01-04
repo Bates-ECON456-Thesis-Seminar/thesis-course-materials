@@ -1,1 +1,1 @@
-# thesis-course-materials
+# Course materials thesis
