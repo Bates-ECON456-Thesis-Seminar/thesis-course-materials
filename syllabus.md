@@ -156,7 +156,7 @@ consider these inputs when assigning your final grade, especially if their quali
 higher or lower than the final thesis. Additionally, exceptionally good or bad posters may move
 your grade up or down by as much as 2/3 of a letter grade. 
 
-While I provide assignments to keep your on track and grade your research process, in grading your papers, 
+While I provide assignments to keep you on track and grade your research process, in grading your papers, 
 I will use the following standard: 
 
 **A:** A well-executed, well-presented paper that addresses an interesting question. With a significant
@@ -286,7 +286,6 @@ Throughout the course, I will provide you feedback on your work. It is your resp
 **End of course:** If an extension beyond the "grace period" is not authorized by the instructor, department, or college, an unfinished incomplete grade will automatically change to an F after either (a) the end of the next regular semester in which the student is enrolled (not including short-term), or (b) the end of 12 months if the student is not enrolled, whichever is shorter.
 
 Incompletes that change to F will count as an attempted course on transcripts. The burden of fulfilling an incomplete grade is the responsibility of the student.
-
 
 ### Accommodations for Disabilities
 Reasonable accommodations will be made for students with verifiable disabilities. In order to take advantage of available accommodations, students must register with the Office of Accessible Education and Student Support (AESS) in Ladd Library G35. For more information on Bates' policy on working with students with disabilities, please see the AESS webpage on Requesting Services (https://www.bates.edu/accessible-education-student-support/requesting-services/how-to-register-for-accommodations/).
