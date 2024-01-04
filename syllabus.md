@@ -6,6 +6,7 @@ header-includes:
 - \fancyhead[L]{Winter 2024}
 - \fancyfoot[C]{\thepage}
 output: pdf_document
+colorlinks: true
 ---
 
 # ECON 456D: Senior Thesis Seminar
