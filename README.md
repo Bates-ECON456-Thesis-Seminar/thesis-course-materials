@@ -2,17 +2,17 @@
 
 This repository contains those materials used to provide guidance on the Winter 2024 thesis seminar taught by Professor Kyle Coombs. This is a living syllabus that students can use to navigate the course. 
 
-# Class times
+## Class times
 
 Tuesdays and Thursdays from 1:10pm to 2:30pm.
 
-## E-mail: kcoombs@bates.edu
+### E-mail: kcoombs@bates.edu
 
 You can also tag me @kgcsport in Issues and Discussions. 
 
-## Office: Pettengill 277
+### Office: Pettengill 277
 
-# Point of thesis
+## Why Thesis?
 
 Building on experience from previous economics courses, students in this course produce new
 independent research. Students will find a researchable idea, execute their idea, and present their
@@ -23,16 +23,3 @@ on the projects of other students in the class. In this class, all students are 
 participate and arrive prepared to do so. Students who are blatantly unprepared may be asked to
 leave: expectations are very high.
 
-# Goals
-
-# Class Format
-
-# Deadlines
-
-# Assignments
-
-# Grading
-
-# Academic Integrity
-
-# Paper advice
