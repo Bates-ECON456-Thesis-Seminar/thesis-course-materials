@@ -9,7 +9,7 @@ output: pdf_document
 ---
 
 # ECON 456D: Senior Thesis Seminar
-*Kyle Coombs (he/him/his)*  
+*Professor Kyle Coombs (he/him/his)*  
 Winter 2024
 
 <!-- To render as a PDF -> syllabus.md -s -o syllabus.pdf -->
@@ -18,14 +18,17 @@ Winter 2024
 
 E-mail: `kcoombs@bates.edu`  
 Web: [kylecoombs.com](http://kylecoombs.com)
+GitHub: @kgcsport
 
-- Office Hours: T, 4-5pm, W 10:30-11:30am, or by appointment (Zoom or in-person)
+- Office Hours: T, 4-5pm, W 10:30-11:30am, or by request (Zoom or in-person)
 - Class Hours: T/Th 9:30-10:50am
 - Office: PGill 277
 - Classroom: Roger Williams Hall 413
 
 Course Website: [https://github.com/Bates-ECON456-Thesis-Seminar](https://github.com/Bates-ECON456-Thesis-Seminar)  
 OH Link: [https://calendar.app.google/XF36Ujpg9NcJbSD58](https://calendar.app.google/XF36Ujpg9NcJbSD58)
+
+_You can get in touch with me via email, but please always write **[ECON 456 - Senior Thesis]** in the subject. Alternatively, as you start using GitHub, you can raise an issue and type @kgcsport to get my attention. Please add me as a collaborator on your page as well. I will aim to respond as quickly as possible via email or if beneficial to the class, I will share with everyone._
 
 ---
 
@@ -184,12 +187,14 @@ Each student will complete a sequence of assignments during the semester; for ea
 
 | Assignment | Date | Percent of grade | 
 | --- | --- | --- |
-| Two initial research questions | Jan 11th | ~2% |
-| Project directory/GitHub repository | Jan 16th | ~2% |
-| Two detailed question proposals | Jan 25th | ~6% |
-| Data & Documentation | Feb 15th | ~5% |
-| Replication Documentation (README) | March 5th | ~10% |
-| Methods & Data | March 12th | ~10% |
+| [Project directory/GitHub repository](assignments/project_directory.md) | Jan 16th | ~2% |
+| [Previous thesis report](assignments/previous_thesis_report.md) | Jan 16th | ~2% |
+| [Two detailed question proposals](assignments/detailed_question_proposals.md) | Jan 25th | ~2% |
+| [Introduction](assignments/introduction_presentation.md) | Feb 1st | ~10% |
+| [Data Report & Documentation](assignments/data_report.md) | Feb 15th | ~5% |
+| Replication Documentation (README) | Feb 27th | ~5% |
+| Methods section | March 7th | ~6% |
+| Data description | March 14th | ~10% |
 | Results | March 19th | ~10% |
 | Final Documentation | April 18th | ~5% |
 | Thesis | April 18th | 25% |
@@ -204,17 +209,18 @@ Assignments will be assigned at least one week before the due date.
 
 If illness or family emergency prevents you from completing an assignment, you must provide documentation to receive accommodations. Please discuss the issue with me as soon as possible to make necessary accommodations.
 
-#### 25% of final grade = Presentations (3 Presentation Assignments & Final Presentation)
+#### 25% of final grade = Presentations (3 Presentation Assignments & Final Presentation & Poster Session)
 
 All presentations will be in-class. For each presentation, a detailed prompt will be
 provided. Presentations will be on the following dates.
 
 | Topic | Date | Percent of grade |
 | --- | --- | --- |
-| Initial pitch | Jan 16th & 18th | ~4.2% of course grade |
+| [Initial pitch](assignments/initial_pitch.md) | Jan 23rd & 25th | ~4.2% of course grade |
 | Proposal | Feb 6th & Feb 8th | ~4.2% |
-| Methods & Data | March 5th & 7th | ~4.2% |
+| Methods & Data Presentation | March 5th & 7th | ~4.2% |
 | Final Presentation | April 4th, 9th, and 11th | 12.5% |
+| Poster Session | April 12th | Bonus |
 
 No student can reschedule a presentation, except under extraordinary circumstances. The
 reason for this policy is to give all students equal time to prepare for a presentation, and
@@ -237,7 +243,26 @@ The course schedule and pace will be dictated by group progress. There are two m
 1. The poster session on Friday, April 12th from 4:15-6:15pm
 2. The final thesis is due on April 18th at 5:45pm (the scheduled final exam)
 
-### Assignments
+## Rough schedule
+
+| Class | Topic | Reading | Assignment |
+| --- | --- | --- | --- |
+| Jan 11 | Research Questions | [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf), [Sommer (2023)](literature/Sommer_EduExpCPS-FE-2023.pdf), [Logani (2022)](literature/Logani-Final-Thesis-Updated.pdf) | Two research questions |
+| Jan 16-18 | What makes research "good"? | [Angrist & Pischke (2008) Ch. 1](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Economical Writing](literature/Economical-Writing-McCloskey-1993.pdf), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf) | Create Project Directory and GitHub Repository, Previous Thesis Report |
+| Jan 23-25 | Pitches + Identification | [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html) | 5-minute presentations of ideas, Two detailed question proposals | 
+| Jan 30-Feb 1 | Individual Meetings, Reproducible Research | [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf) | Proposal/Introduction, presentation slots given out |
+| Feb 6-8 | Proposal | [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)] | Proposal Presentations |
+| Feb 13-15 | Workflow & Data report | [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf) | Data Report |
+| Feb 20-22 | Break | | |
+| Feb 27-Feb 29 | Methods, Data Description | [Angrist & Pischke (2008)  Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf) | Replication documentation |
+| Mar 5-7 | Results, Individual Meetings | | Methods Section |
+| Mar 12-14 | Data Presentations | | Data Section |
+| Mar 19-21 | Results workshop |  | |
+| Mar 26-28 | Individual Meetings, Poster Workshop | | Results due |
+| Apr 2-4 | Practice Presentations | [Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf) | |
+| Apr 9-11 | Final Presentations | | |
+| April 12th | Poster Session | | |
+| April 18 | No class - Final Exams | | Final Documentation and Thesis |
 
 ### Other important dates
 
