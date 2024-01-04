@@ -1,1 +1,1 @@
-# Course materials thesis
+# Senior Thesis course materials
