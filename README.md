@@ -25,3 +25,21 @@ on the projects of other students in the class. In this class, all students are 
 participate and arrive prepared to do so. Students who are blatantly unprepared may be asked to
 leave: expectations are very high.
 
+| Class | Topic | Reading | Assignment |
+| --- | --- | --- | --- |
+| Jan 11 | Research Questions ([html](raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/01-getting-started/01-getting-started.html), [pdf](raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/01-getting-started/01-getting-started.pdf)) | [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf), [Sommer (2023)](literature/Sommer_EduExpCPS-FE-2023.pdf), [Logani (2022)](literature/Logani-Final-Thesis-Updated.pdf) | Two research questions |
+| Jan 16-18 | What makes research "good"? | [Angrist & Pischke (2008) Ch. 1](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Economical Writing](literature/Economical-Writing-McCloskey-1993.pdf), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf) | Create Project Directory and GitHub Repository, Previous Thesis Report |
+| Jan 23-25 | Pitches + Identification | [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html) | 5-minute presentations of ideas, Two detailed question proposals | 
+| Jan 30-Feb 1 | Individual Meetings, Reproducible Research | [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf) | Proposal/Introduction, presentation slots given out |
+| Feb 6-8 | Proposal | [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)] | Proposal Presentations |
+| Feb 13-15 | Workflow & Data report | [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf) | Data Report |
+| Feb 20-22 | Break | | |
+| Feb 27-Feb 29 | Methods, Data Description | [Angrist & Pischke (2008)  Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf) | Replication documentation |
+| Mar 5-7 | Results, Individual Meetings | | Methods Section |
+| Mar 12-14 | Data Presentations | | Data Section |
+| Mar 19-21 | Results workshop |  | |
+| Mar 26-28 | Individual Meetings, Poster Workshop | | Results due |
+| Apr 2-4 | Practice Presentations | [Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf) | |
+| Apr 9-11 | Final Presentations | | |
+| April 12th | Poster Session | | |
+| April 18 | No class - Final Exams | | Final Documentation and Thesis |
