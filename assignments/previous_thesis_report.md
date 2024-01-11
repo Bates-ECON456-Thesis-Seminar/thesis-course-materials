@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Please write up a brief explanation and upload to your GitHub repository in a "Notes" folder. 
+
 ## Previous Thesis Report
 
 Choose one of the past theses posted on the course website to (a) read carefully and (b) write a
