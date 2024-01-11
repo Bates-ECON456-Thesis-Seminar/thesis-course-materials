@@ -186,6 +186,8 @@ Below I provide finer detail on the assignments and grading. I will provide more
 
 Each student will complete a sequence of assignments during the semester; for each assignment, a detailed prompt will be provided. The assignments are listed below.
 
+Unless the assignment prompt states otherwise, please submit a .PDF of your write-up to your GitHub repository in a `Notes` folder.
+
 | Assignment | Date | Percent of grade | 
 | --- | --- | --- |
 | [Project directory/GitHub repository](assignments/project_directory.md) | Jan 16th | ~2% |
