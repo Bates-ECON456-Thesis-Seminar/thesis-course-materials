@@ -22,7 +22,7 @@ Web: [kylecoombs.com](http://kylecoombs.com)
 GitHub: @kgcsport
 
 - Office Hours: T, 4-5pm, W 10:30-11:30am, or by request (Zoom or in-person)
-- Class Hours: T/Th 9:30-10:50am
+- Class Hours: T/Th 1:10-2:30pm
 - Office: PGill 277
 - Classroom: Roger Williams Hall 413
 
