@@ -66,7 +66,7 @@ Course notes, assignments, extra readings, recordings, and all other materials a
 
 ### Poster session
 
-We will participate in an Economics Department poster session on December 8. You should plan to be responsible for paying only for the $35 poster printing fee. 
+We will participate in an Economics Department poster session on April 12. You should plan to be responsible for paying only for the $35 poster printing fee. 
 
 ### Data
 
