@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Senior Thesis</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Kyle Coombs" />
+    <script src="libs/header-attrs-2.25/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/metropolis-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="ou-colors.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Senior Thesis
+]
+.subtitle[
+## What makes research ‘good’?
+]
+.author[
+### Kyle Coombs
+]
+.date[
+### Bates College | <a href="https://github.com/Bates-ECON456-Thesis-Seminar">EC/DCS 456</a>
+]
+
+---
+
+&lt;style type="text/css"&gt;
+# CSS for including pauses in printed PDF output (see bottom of lecture)
+@media print {
+  .has-continuation {
+    display: block !important;
+  }
+}
+&lt;/style&gt;
+
+# Table of Contents
+
+- [Prolgue](#prologue)
+    - [Caveat](#caveat)
+- [Mostly Harmless FAQs](#faqs)
+    1. [What is causal relationship?](#what-is-causal-relationship)
+    2. [What experiment?](#what-experiment)
+    3. [What is the identification strategy](#what-is-the-identification-strategy)
+    4. [What is your mode of statistical inference?](#what-is-your-mode-of-statistical-inference)
+
+---
+class: inverse, center, middle
+name: prologue
+
+# Prologue
+
+---
+# Prologue
+
+- Today we're going to go over how to ask a good research question
+
+- This is tough! 
+
+- People make careers out of this (I'm trying)
+
+- Rest assured there are infinite interesting research questions
+
+- But there also infinite uninteresting research questions
+
+
+
+---
+name: caveat
+
+# Caveat
+
+- I have no idea how to guarantee a research question is "good"
+
+--
+
+- **Spoiler**: No one does
+
+--
+
+- Sometimes the most interesting question (at first blush) turns out to be a dud
+
+- Sometimes the least interesting question (at first blush) turns out to be a gem
+
+- I am going to give you some tips and tricks the experts use
+
+---
+class: inverse, center, middle
+name: faqs
+
+# Mostly Harmless FAQs
+
+---
+# Mostly Harmless Econometrics and FAQs
+
+- I'm going to use the book *Mostly Harmless Econometrics* by Angrist and Pischke as a guide
+
+- This is a great book and I highly recommend it
+
+- It's also a great title (a play on the Hitchhiker's Guide to the Galaxy series)
+
+- Chapter 1 details four FAQs that are useful to ask when thinking about an empirical research question
+
+- The focus is on causal research, but the questions are useful for any empirical research
+
+---
+name: what-is-causal-relationship
+
+# What is causal relationship?
+
+&gt; What is the causal relationship of interest?
+
+- Causal relationships are super useful for making predictions about changing circumstances or policies
+
+- Well-answered causal questions can tell us what happens in "counterfactual" worlds
+
+- It is important to frame the core causal relationship of interest because sometimes empirical work gets hyperfocused on a specific setting
+
+- The core causal relationship is the relationship of interest in the absence of any specific setting
+
+- How do you generalize your results to other settings? Why do we care?
+
+- **Policy interest**: Does your question have implications for policy decisions?
+
+- **Theoretical interest**: Does your question derive from an economic model?
+
+---
+# Causality and charity
+
+- As part of my research on charitable giving, I have studied the effect of increased government support on charitable giving
+
+- e.g. By how much does private charitable giving change if the government increases its support of a cause by $1?
+
+#### Policy interest
+
+This effect is useful for evaluating whether the government should increase its support for public goods (e.g. public parks), public services (e.g. public education), or public programs (e.g. food stamps)
+
+#### Theoretical Interest
+
+Simple models of public good provision predict 1:1 crowd-out, but more complex models predict less than 1:1 crowd-out
+
+---
+# Discuss with a partner
+
+- Talk with a partner about the key causal relationship in your thesis for three minutes
+
+- What is the bigger picture? 
+
+- Is it theoretically relevant?
+
+- Is there a policy implication?
+
+---
+name: what-experiment
+
+# What experiment?
+
+- The second research FAQ is:
+
+&gt; What experiment could _ideally_ be used to capture the causal relationship of interest?
+
+- Get creative! 
+
+- Imagine a world without budget constraints, ethical concerns, or time constraints
+
+- How could your answer your question of interest? 
+
+- Often you can't logistically perform this ideal experiment
+    - And in some cases, you definitely should not ever even consider performing this ideal experiment (e.g. what is the effect of pandemics on economic growth?)
+
+- But the ideal experiment helps you think through your precise causal question
+
+- It can also help you back out 
+    - The assumptions you need to make to answer your question
+    - The unit of analysis to answer your question
+
+---
+# Ideal experiment and charity
+
+- What would be the ideal experiment to look at the effect of government support on charitable giving?
+
+--
+
+- We would randomly provide government support to some charities and not others
+
+--
+
+- What if we are interested in the effect of government support on informal support systems (e.g. neighbors helping neighbors)?
+
+- Would we randomly provide support to communities? Individuals? Both levels?
+
+- Do we need to target support based on personal wealth? Number of friends? Network centrality?!  
+
+- As you can see, this gets complicated quickly! 
+
+---
+# Discuss with a partner
+
+- Discuss with the same partner what your ideal experiment would be for three minutes
+
+- What would you do if you had infinite resources?
+
+- What would you do if you had infinite time?
+
+- What would you do if you had infinite data?
+
+---
+# Are you FUQ'd?
+
+- Sometimes you can only think of truly impossible experiments
+
+- Then you have a **F**undamentally **U**nidentified **Q**uestion (FUQ)
+
+- I don't mean "impossible" in the sense that you can't do it because of budget constraints, ethical concerns, or time constraints
+
+- I mean "impossible" in the sense that you can't do it because it is logically impossible
+    - e.g. What is the effect of starting school at an older age? 
+
+---
+# Older starting age
+
+- Imagine an ideal experiment to measure the effect of starting school at an older age
+
+--
+
+- We could randomly assign kids to start at age 5 (group `\(C\)`) or age 6 (group `\(T\)`)
+
+- Then we could measure 1st grade test scores and compare them
+    - But the `\(C\)` kids are a year younger than `\(T\)` kids so we would expect them to do worse on the test regardless of randomization
+
+- Can we compare `\(C\)`'s 2nd grade scores to `\(T\)`'s' 1st grade scores? They're the same age...
+    - But the `\(C\)` kids have had an extra year of schooling so we would expect them to do better on the test regardless of randomization
+
+- This question is FUQ'd: We cannot disentangle the start-age effect due to maturation from the time-in-school effects due to schooling
+    - They're linearly dependent while still in school
+
+- What can we do?
+
+--
+
+- Look at wages as adults? 
+
+---
+# Anyone have a FUQ to give?
+
+- Talk with a partner about your research question for three minutes
+
+- Are you worried that it is FUQ'd? 
+
+- If so, can you amend it to make it answerable?
+
+---
+name: what-is-the-identification-strategy
+
+# What is the identification strategy?
+
+- The third research FAQ is:
+
+&gt; What is the identification strategy?
+
+- While the first two questions are bigger picture, this question dives into the weeds
+
+- An _identification strategy_ is the way you use observational data to approximate a real experiment
+
+- Any _identification strategy_ requires that you make some assumptions
+
+---
+# Common identification strategies
+
+1. **Control variables**: Includes that control for any confounding variables between a treated and control group (generally hard to truly control for everything)
+
+2.  **Difference-in-difference**: Compare units before and after a treatment to units that are never treated
+2. **Staggered difference-in-difference**: Compare units before and after a treatment to units that are treated later 
+
+3. **Instrumental variables**: Use a variable that is correlated with the treatment (relevant), but otherwise 
+
+4. **Regression discontinuity design**: Compare units just above and just below a threshold
+
+---
+# Identification and charitable giving
+
+- In the case of private charitable giving, we can't randomly assign government support to charities
+
+- But we know that government support for public parks increases by a fixed amount (e.g. $1 million) when the population of a city passes a certain threshold (e.g. 50,000 people) 
+
+- We can use this "natural experiment" to identify the effect of government support on charitable giving
+    - Option 1: Regression discontinuity design of towns on either side of the threshold
+    - Option 2: Difference-in-differences design of towns that pass the threshold vs. towns that don't pass the threshold
+
+- **Note:** This requires assumptions that the towns on either side of the threshold are similar in ways that affect charitable giving
+
+---
+# Discuss with partner
+
+- What identification strategy could work in your thesis?
+
+- What assumptions do you need to make?
+
+---
+name: what-is-your-mode-of-statistical-inference
+
+# Mode of statistical inference?
+
+- The fourth research FAQ is:
+
+&gt; What is your mode of statistical inference?
+
+- WHat is the population you are trying to make inferences about? 
+
+- How is the sample constructed and used? 
+
+- What are you assuming about the standard errors of your estimates?
+
+---
+# Practical terms
+
+- Basically, this is a question about how you construct standard errors
+    - e.g. Do you think your observations are independent?
+    - e.g. Do you think your data exhibit heteroskedasticity? 
+    - These two would violate the standard assumptions of vanilla econometric methods
+
+- Standard errors and inference can get tricky, technical, and kind of boring, but they are important to think about
+
+- Why? Statistical inference is how we make statements about the population based on a sample
+
+- It is how you move from a neat well-conceived project to a generalizable result that matters outside of your specific setting
+
+---
+# Inference and charitable giving
+
+- Recall the example of a population threshold for increased government support of public parks
+
+- Should we treat charitable giving of individuals in towns that pass the threshold as independent observations? 
+
+- Or should we treat charitable giving of individuals in towns that pass the threshold as dependent observations?
+
+---
+# Discuss statistical inference
+
+- This is a little tricky to chat with your partner about
+
+- What is your population of interest?
+
+- What sample do you expect to use? 
+    - Is it randomly sampled?
+    - Selected on some specific characteristics?
+
+- How do you plan to construct standard errors?
+    - Do you think your observations are independent?
+    - Do you think your data exhibit heteroskedasticity?
+
+---
+class: inverse, center, middle
+
+# Next classes: One-on-ones and Student pitches
+&lt;html&gt;&lt;div style='float:left'&gt;&lt;/div&gt;&lt;hr color='#EB811B' size=1px width=796px&gt;&lt;/html&gt;
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
