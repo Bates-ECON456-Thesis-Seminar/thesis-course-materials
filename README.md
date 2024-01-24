@@ -31,7 +31,7 @@ leave: expectations are very high.
 | Jan 16-18 | What makes research "good"? | [Angrist & Pischke (2008) Ch. 1](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Economical Writing](literature/Economical-Writing-McCloskey-1993.pdf), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf) | Create Project Directory and GitHub Repository, Previous Thesis Report |
 | Jan 23-25 | Pitches + Identification | [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html) | [5-minute presentations of ideas](assignments/initial_pitch.md), [Two detailed question proposals](assignments/detailed_question_proposals.md) | 
 | Jan 30-Feb 1 | Individual Meetings, Reproducible Research | [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf) | [Proposal/Introduction](assignments/introduction_presentation.md), presentation slots given out |
-| Feb 6-8 | Proposal | [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)] | [Proposal Presentations](assignments/introduction_presentation.md) |
+| Feb 6-8 | Proposal | [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)](https://blogs.ubc.ca/khead/research/research-advice/formula). [McCloskey (1993)](literature/Economical-Writing-McCloskey-1993.pdf) | [Proposal Presentations](assignments/introduction_presentation.md) |
 | Feb 13-15 | Workflow & Data report | [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf) | Data Report |
 | Feb 20-22 | Break | | |
 | Feb 27-Feb 29 | Methods, Data Description | [Angrist & Pischke (2008)  Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf) | Replication documentation |
