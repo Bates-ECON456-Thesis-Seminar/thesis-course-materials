@@ -337,7 +337,9 @@ name: empirical-framework
 
 - This is where you stick that all imporant regression equation: 
 
-$$ y_{it} = \alpha + \gamma D_{it} + X_{it}\beta + \epsilon_{it} $$
+\begin{equation*}
+ y_{it} = \alpha + \gamma D_{it} + X_{it}\beta + \epsilon_{it} 
+\end{equation*}
 
 where $y_{it}$ is the outcome of interest for individual $i$ at time $t$, $D_{it}$ is the treatment indicator, $X_{it}$ is a matrix of controls, and $\epsilon_{it}$ is the error term
 
@@ -428,6 +430,50 @@ class: inverse, center, middle
     - Covariates should be actual words like "Years of education" not "Edu"
 
 - What do you want to see when you read a paper? 
+
+---
+# Great table
+
+```{r table, echo=FALSE, warning=FALSE,message=FALSE,results='asis'}
+library(fixest)
+library(pander)
+data(airquality)
+
+setFixest_dict(c(Ozone = "Ozone (ppb)", Solar.R = "Solar Radiation (Langleys)",
+                 Wind = "Wind Speed (mph)", Temp = "Temperature"))
+my_style = style.df(depvar.title = "", fixef.title = "", 
+                    fixef.suffix = " fixed effect", yesNo = "yes")
+
+setFixest_etable(style.df = my_style, markdown=TRUE)
+
+est = feols(Ozone ~ Solar.R + sw0(Wind + Temp) | csw(Month, Day), 
+            airquality, cluster = ~Day)
+est_slopes = feols(Ozone ~ Solar.R + Wind | Day + Month[Temp], airquality)
+etable(est, est_slopes, style.tex = style.tex("aer"), 
+       signif.code = NA, fitstat = ~ r2 + n + f,
+       notes=c("*Notes:* The data is a daily time series of air quality measurements in New York City from May to September 1973.",
+        '*Source*: Data from the New York State Department of Conservation (1973)'),
+        title= "Ozone and Weather in New York City, 1973")
+```
+
+---
+# Tools to automate table creation 
+
+- In R:
+    - `etable()`
+    - `stargazer()`
+    - `xtable()`
+    - `kable()`
+    - `huxtable()`
+
+- In Stata:
+    - `esttab`
+    - `outreg2`
+    - `estout`
+
+- In Python:
+    - `pandas` has a `to_latex` method
+    - `stargazer` in `rpy2` (R in Python)
 
 ---
 # Robustness checks
@@ -521,7 +567,7 @@ class: inverse, center, middle
 
 1. Hook: What is interesting about ths topic? 
 2. Question: State the question
-3. Antecdents: Mention prior work that is critical to understand contribution of your paper<sup>1</sup>
+3. Antecedents: Mention prior work that is critical to understand contribution of your paper<sup>1</sup>
 4. Value-added: Describe approximately 3 contributions of your paper
 5. Road-map: Outline the organization of the paper (actively)
 

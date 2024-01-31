@@ -104,16 +104,11 @@ name: prologue
 
 - Data and descriptive statistics?
 
-- introduction
+- Introduction?
 
-- Abstract
+- Abstract?
 
-- Conclusion
-
----
-# What do you want to highlight?
-
-- 
+- Conclusion?
 
 ---
 name: structure
@@ -359,7 +354,9 @@ name: empirical-framework
 
 - This is where you stick that all imporant regression equation: 
 
-$$ y_{it} = \alpha + \gamma D_{it} + X_{it}\beta + \epsilon_{it} $$
+`\begin{equation*}
+ y_{it} = \alpha + \gamma D_{it} + X_{it}\beta + \epsilon_{it} 
+\end{equation*}`
 
 where `\(y_{it}\)` is the outcome of interest for individual `\(i\)` at time `\(t\)`, `\(D_{it}\)` is the treatment indicator, `\(X_{it}\)` is a matrix of controls, and `\(\epsilon_{it}\)` is the error term
 
@@ -450,6 +447,30 @@ class: inverse, center, middle
     - Covariates should be actual words like "Years of education" not "Edu"
 
 - What do you want to see when you read a paper? 
+
+---
+# Great table
+
+&lt;div class = "etable"&gt;&lt;img src = "./images/etable/etable_tex_2024-01-31_9545900410.png"&gt;&lt;/div&gt;
+
+---
+# Tools to automate table creation 
+
+- In R:
+    - `etable()`
+    - `stargazer()`
+    - `xtable()`
+    - `kable()`
+    - `huxtable()`
+
+- In Stata:
+    - `esttab`
+    - `outreg2`
+    - `estout`
+
+- In Python:
+    - `pandas` has a `to_latex` method
+    - `stargazer` in `rpy2` (R in Python)
 
 ---
 # Robustness checks
@@ -543,7 +564,7 @@ class: inverse, center, middle
 
 1. Hook: What is interesting about ths topic? 
 2. Question: State the question
-3. Antecdents: Mention prior work that is critical to understand contribution of your paper&lt;sup&gt;1&lt;/sup&gt;
+3. Antecedents: Mention prior work that is critical to understand contribution of your paper&lt;sup&gt;1&lt;/sup&gt;
 4. Value-added: Describe approximately 3 contributions of your paper
 5. Road-map: Outline the organization of the paper (actively)
 
@@ -602,7 +623,7 @@ class: inverse, center, middle
 
 ---
 # Value added
-000
+
 - What are the (likely) three contributions of your paper?
     
     - New measurement of an old economic phenonmenon?
