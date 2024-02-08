@@ -76,7 +76,7 @@ You do not need to submit the Read Me file at this stage of the project, but I s
 you to write Section 2 as you retrieve original data and create your importable and base data
 files.
 
-## Data Documentation
+## 2. Data Documentation
 
 For each of your original data files, the Metadata Guide provides the kind of information typically
 found in a codebook accompanying a dataset, such as variable definitions and coding, sampling
