@@ -58,13 +58,7 @@ I encourage you to use a markdown or LaTeX file to write your thesis. They are d
 
 #### WYSWYG editors: Microsoft Word and Google Docs
 
-If you choose to use Microsoft Word, please do two things. 
-
-1. Make a file  called `.gitattributes` in your repository
-2. Add one of the two lines to the file: `*.docx binary` or `*.doc binary`
-3. Push to your repository. (Or pull to your repository if you made these along)
-
-Then you can freely push the `.docx` file to your repository. If you are using Google Docs, you can skip that, but instead please provide a link to the Google Doc in your README file.
+If you choose to use Microsoft Word, you can push the `.docx` to your repository. If you are using Google Docs, you can skip that, but instead please provide a link to the Google Doc in your README file. 
 
 These are called WYSWYG (What You See is What You Get) editors. They can make updating figures, equations, tables, and references difficult, but they are more user-friendly at first. 
 
