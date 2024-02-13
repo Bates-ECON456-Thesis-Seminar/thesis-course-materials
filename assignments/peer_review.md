@@ -16,3 +16,11 @@ Each of you will switch papers with a partner. Then we will spend 20 minutes rea
 - Can you think of potential problems (endogeneity, no parallel trends, messy data) with the methodology?
 - What confused you about the proposal? 
 - Does the hook align with the question?
+
+## Pedagogical goals
+
+1. Learn how an intelligent reader digests your work.
+2. Learn how to give constructive feedback.
+3. Learn how to receive constructive feedback.
+4. Use GitHub Discussion to give feedback.
+5. Further refine your thesis question and methodology.
