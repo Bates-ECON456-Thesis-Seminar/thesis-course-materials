@@ -195,9 +195,9 @@ Unless the assignment prompt states otherwise, please submit a .PDF of your writ
 | [Two detailed question proposals](assignments/detailed_question_proposals.md) | Jan 25th | ~2% |
 | [Introduction](assignments/introduction_presentation.md) | Feb 1st | ~10% |
 | [Data Report & Documentation](assignments/data_report.md) | Feb 15th | ~5% |
-| Replication Documentation (README) | Feb 27th | ~5% |
-| Methods section | March 7th | ~6% |
-| Data description | March 14th | ~10% |
+| [Replication Documentation (README)](assignments/replication_documentation.md) | Feb 27th | ~5% |
+| [Methods section](assignments/methods_and_data.md) | March 7th | ~6% |
+| [Data description](assignments/methods_and_data.md) | March 14th | ~10% |
 | Results | March 19th | ~10% |
 | Final Documentation | April 18th | ~5% |
 | Thesis | April 18th | 25% |
