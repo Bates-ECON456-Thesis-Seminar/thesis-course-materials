@@ -8,13 +8,14 @@ For this phase of your project, you will complete the following assignments.
 methods and data. The presentation should be 2-5 minutes and no more than 3 presentation
 slides (not including a “works cited” slide). The presentation will be followed by 5-10
 minutes of questions and discussion with the class. You will be assigned a presentation date
-on Oct 30. Please share your slides with Prof Bird before the start of class on your
+on 3/7. Please share your slides with Prof Coombs before the start of class on your
 presentation date either as Google Slides or as a PDF via email.
+
 2. Thesis: Methods & Data . This assignment entails the completion and submission of three
 components:
     1. Methods & Data [Documents];
     2. Data Appendix [Documents];
-    3. Data summary command file (summary.do) [Command].
+    3. Data summary command file [Command].
     where [brackets] denote where this file(s) should be saved in your folder in Etna.
 
 1. Methods & Data. The Methods & Data section should include subsections that describe
@@ -133,8 +134,8 @@ reflection. What stands out? Is there anything hard to believe?
 - The Data Appendix must be submitted on Lyceum as a PDF prior to the deadline
 (Nov 9 at 12pm). Please title the document “Data Appendix – Last Name” (where
 “Last Name” is replaced with your last name).
-3. Summary.do command file. Write a .do file to generate all the descriptive statistics,
+3. Code file. Write a file (or files) to generate all the descriptive statistics,
 tables and figures needed for the Data Appendix. These should be created using your
-analysis data. Give this command file the name Summary.do and save it in your
+analysis data. Give this command file a relevant name and save it in your
 Command Files folder. Remember, for full credit all command files should be fully
 commented and easily readable

@@ -4,9 +4,9 @@ This assignment entails completing one “thesis assignment”:
 1. Thesis: Replication Documentation due 2/29 at midnight 
 This component of the project entails the completion and submission of several data and
 replication documentation components, including:
-- Data processing code files  (processing.do) [Code] or [Code/Build].
-- Data construction code files  (construction.do) [Code] or [Code/Build].
-- Analysis code files in (analysis.do) [Code] or [Code/Analysis].
+- Data processing code files [Code] or [Code/Build].
+- Data construction code files [Code] or [Code/Build].
+- Analysis code files in [Code] or [Code/Analysis].
     
 
 1. Processing Your Data: Building your Base Data File
@@ -22,7 +22,7 @@ Use modular code to process your data wherever possible. That means you keep eac
 - making any necessary adjustments to facilitate these combinations (renaming, recoding, reshaping);
 - cleaning the data to resolve any errors or discrepancies;
 - saving a cleaned version of your data under a new file name.
-For full credit your processing.do should:
+For full credit your build code should:
 - have a header that includes your name and date created
 - be free of errors
 - be free of extraneous (unnecessary) commands
@@ -41,7 +41,7 @@ should occur in the next phase, Data Construction, and be documented in the thos
 - saving intermediate and analysis data files.
 Note that any variables remaining in your analysis data will need to be described in detail in
 your Data Appendix and included in your Methods & Data section (both are part of a future
-assignment). Remember, for full credit all code files  should be fully commented and
+assignment). Remember, for full credit all code files should be fully commented and
 easily readable.
 
 3. Save your code files relevant folders and your analysis data in an analysis data folder. 
