@@ -1,6 +1,10 @@
 # Replication Documentation
 This assignment entails completing one “thesis assignment”:
 
+### Note: You will not be able to do all of this right now. You will be able to get started -- eventually, you will need to complete all of these steps. 
+
+- Your final product will feature all of this information in a single README or multiple READMEs depending on your preference. Just make clear where everything is.
+
 1. Thesis: Replication Documentation due 2/29 at midnight 
 This component of the project entails the completion and submission of several data and
 replication documentation components, including:
@@ -8,8 +12,7 @@ replication documentation components, including:
 - Data construction code files [Code] or [Code/Build].
 - Analysis code files in [Code] or [Code/Analysis].
     
-
-1. Processing Your Data: Building your Base Data File
+2. Processing Your Data: Building your Base Data File
 
 The processing phase of a project consists of all the steps involved in transforming your original
 data files (or the importable versions) into the fully cleaned and processed base data files that
