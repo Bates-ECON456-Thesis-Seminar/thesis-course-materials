@@ -54,7 +54,8 @@ Metadata Guide or supplementary data information if necessary.
 - Variable Descriptions Table. A table providing variables names, their descriptions, and
 units of measurement. Do not copy and paste this table from your programming language (for example, from a
 codebook command). It should be formatted in Word or Excel to be easily readable.
-- Summary Statistics.
+
+### Summary Statistics.
 - Provide a table of summary statistics (mean, standard deviation, max, min, etc) of
 the dependent variable and all other explanatory variables.
 - Again, do not copy and paste this table from your programming language. It should be formatted and easy
@@ -93,12 +94,11 @@ deadline.
 with your last name).
 - The Methods & Data section should be about 3 to 7 pages, including tables.
 - The document should be formatted as follows:
-- 12 pt. Garamond or Times New Roman font
-- 1-inch margins
-- Double spacing
-- Page numbers in right-hand corner
-- Title and name on first page (or title page)
-- Chicago style citations
+    - 1-inch margins
+    - Double spacing
+    - Page numbers in right-hand corner
+    - Title and name on first page (or title page)
+    - Chicago/APA style citations
 
 2. Data Appendix. The Data Appendix is a document that serves as a codebook for the
 analysis data files. It should be saved in the Documents folder. The Data Appendix
