@@ -16,7 +16,7 @@ components:
     1. Methods & Data [Documents];
     2. Data Appendix [Documents];
     3. Data summary command file [Command].
-    where [brackets] denote where this file(s) should be saved in your folder in Etna.
+    where [brackets] denote where this file(s) should be saved in your folder in repository.
 
 1. Methods & Data. The Methods & Data section should include subsections that describe
 your model specification as well as data and summary statistics.
