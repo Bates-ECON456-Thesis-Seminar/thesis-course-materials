@@ -251,9 +251,13 @@ coefplot(clfe)
 
 - For example, within California some people may need organs and others may not
 
-- You can use a triple difference to see how the treatment effect in California varies between these groups
+- This other group is a placebo group, which experiences the same trends as the treated group
 
-- If you have the right data
+- You can use a triple difference to difference out the trends in the placebo group from the treated group
+
+--
+
+- Data demands and assumptions are higher
 
 ---
 # Transform variables
