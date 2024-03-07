@@ -13,13 +13,17 @@ presentation date either as Google Slides or as a PDF via email.
 
 2. Thesis: Methods & Data . This assignment entails the completion and submission of three
 components:
-    1. Methods & Data [Documents];
-    2. Data Appendix [Documents];
-    3. Data summary command file [Command].
-    where [brackets] denote where this file(s) should be saved in your folder in repository.
+    1. Methods & Data
+    2. Data Appendix
+    3. Data summary code file.
 
-1. Methods & Data. The Methods & Data section should include subsections that describe
+### Methods and Data sections
+
+Methods & Data. The Methods & Data section should include subsections that describe
 your model specification as well as data and summary statistics.
+
+#### Methods
+
 - The Methods subsection should specify your regression equation; classify explanatory
 variables as variables of interest or controls; and indicate the expected sign of the
 coefficients of the variables of interest. This section should be brief, but provide all
@@ -39,6 +43,8 @@ ambiguous -- and provide a brief explanation supporting your expectation. Focus
 primarily on your variables of interest and on the most critical (in terms of
 avoiding omitted variable bias) control variables. You do not need to discuss
 expectations for all control variables.
+
+#### Data
 
 - The Data subsection provides a description of your analysis data. This subsection should be
 concise (1-4 pages, including tables; tables should be placed after the text that describes the
@@ -84,23 +90,23 @@ test and compare your data to it.
 the text and direct the reader to the Data Appendix for additional information if needed or
 relegate some additional information to a footnote. This means that you should only include
 detailed discussions of variables that you intend to be the focus of your analysis.
-Bates College Econ 456C Senior Thesis Seminar Fall 2023
 
 Methods & Data Formatting Guidelines:
 Your completed Methods & Data document must meet the following requirements:
-- The Methods & Data section must be submitted as a Microsoft Word document prior to the
-deadline.
+- The Methods & Data section must be submitted prior to the deadline. Submit a .docx file or a .md or a .tex file.
 - Please title the document “Methods & Data – Last Name” (where “Last Name” is replaced
 with your last name).
 - The Methods & Data section should be about 3 to 7 pages, including tables.
 - The document should be formatted as follows:
     - 1-inch margins
-    - Double spacing
+    - Double-spacing
     - Page numbers in right-hand corner
     - Title and name on first page (or title page)
     - Chicago/APA style citations
 
-2. Data Appendix. The Data Appendix is a document that serves as a codebook for the
+## Data Appendix
+
+The Data Appendix is a document that serves as a codebook for the
 analysis data files. It should be saved in the Documents folder. The Data Appendix
 should provide information about every variable in your analysis data file, including
 definitions and coding (for all variables), summary statistics and histograms (for
@@ -112,7 +118,8 @@ should be divided into sections, each of which provides information about one of
 variables in the analysis data file. Some of the information is the same for all variables;
 other parts of the information depend on whether the variable is quantitative or
 categorical. See below for more details.
-- For every variable
+
+#### For every variable:
 - The name of the variable and a complete definition (including as
 appropriate, for example, coding and/or units of measurement, the wording
 of a survey question the variable is based on, or adjustments made for
@@ -122,19 +129,18 @@ or from which the variables used to construct it were extracted, and the
 names of the variables extracted from the original data files.
 - The number of observations with valid values for the variable, and the
 number of observations with missing values.
-- For quantitative variables
-- Basic summary statistics, including the mean, standard deviation, minimum,
-25th percentile, median, 75th percentile, and maximum.
-- A histogram and/or a box plot.
-- For categorical variables
-- A frequency table.
-- A bar chart illustrating the frequency distribution.
-- For every variable: After completing the above tasks, provide a brief (2-5 sentence)
-reflection. What stands out? Is there anything hard to believe?
-- The Data Appendix must be submitted on Lyceum as a PDF prior to the deadline
-(Nov 9 at 12pm). Please title the document “Data Appendix – Last Name” (where
-“Last Name” is replaced with your last name).
-3. Code file. Write a file (or files) to generate all the descriptive statistics,
+
+- For quantitative variables:
+    - Basic summary statistics, including the mean, standard deviation, minimum,
+    25th percentile, median, 75th percentile, and maximum.
+    - A histogram and/or a box plot.
+    - For categorical variables
+    - A frequency table.
+    - A bar chart illustrating the frequency distribution.
+    - For every variable: After completing the above tasks, provide a brief (2-5 sentence)
+    reflection. What stands out? Is there anything hard to believe?
+
+3. Code files. Write a file (or files) to generate all the descriptive statistics,
 tables and figures needed for the Data Appendix. These should be created using your
 analysis data. Give this command file a relevant name and save it in your
 Command Files folder. Remember, for full credit all command files should be fully
