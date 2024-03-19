@@ -123,23 +123,20 @@ class: inverse, center, middle
 ---
 # Some basic guidelines
 
-- Someone should be able to skim your figures and the associated notes and get the gist of the paper
+- Someone should be able to skim your figure and get the gist of the paper
 
 - Have a main regression specification that you present front and center
     1. Don't bury it in appendix Z.4
     2. Any other results should **ideally** be "one change" from the main specification
-        - Add a control
-        - Add an interaction
-        - Subset the sample
+        - Add a control; add an interaction; subset the sample
 
 - Labels, labels, labels
     - Make sure your tables and figures are labeled    
     - Labels should be informative, but terse (not coding variable names)
 
 - Do not present extensive details on something you are not going to talk about in your paper
-    - Oh you have a vector of controls tossed in to your regression to satisfy a conditional independence assumption? Great! 
-    - But don't show me every coefficient and standard error for each control variable in a main table
-    - Instead mention the controls in the caption and whether they are or are not included in a column
+    - Don't show me every coefficient for each control variable
+    - Instead mention the controls in the note and if they  are included in a column
 
 - Appendices are for robustness checks and additional details
     - They are not for the main results
@@ -191,14 +188,22 @@ name: classic-tables
 # The Classics
 
 1. Summary statistic tables
+    - Overview of the data
+    - Often the least interesting table in the paper
 
 2. Balance tables
+    - Two-way t-test of treatment and control groups on observables (mandatory in RCTs)
 
 3. Regression tables
-
+    - The main specification
+    - Robustness checks
+    - Sub-sample analyses
+    
 4. Correlation tables
+    - Rare
 
-There's many, many, many, many more
+5. Customized tables
+    - Often tables are customized to show a specific result
 
 ---
 # Summary statistic tables
@@ -217,29 +222,27 @@ There's many, many, many, many more
 - Think about how you can use dimensions of your data to present subsets that may or may not be interesting
 
 ---
-# Balance tables
+# Summary statistics table
 
-- Balance tables are basically just summary statistic tables, but for treatment and control groups
+Ganong and Noel (2019) toss this summary statistics table in the appendix of their paper. Note they separate the table by meaningful categories of the data to guide the reader.
 
-- Generally, you're doing a twoway t-test to compare the two groups, so you'll just present means instead of every statee
+<center>
+<img src="imgs/ganongnoel2019_appendixtable1.png" alt="Summary statistics table in the appendix by Ganong and Noel (2019)." width='80%'>
+</center>
 
 ---
 # Regression tables
 
 - In general, every column should be a different regression specification and it should be obvious
 
-- First specification should be the main or simplest specification, then each column should be a change from that
-    - The changes may be cumulative: simplest, then you add controls, then you add new fixed effects
-    - The changes may be distinct by column: simplest, then you add controls, then you remove controls and add fixed effects
-    - It depends on the table
+- First specification should be the simplest specification, then each column should be a change from that
+    - The changes may be cumulative: simplest, then add controls, then add fixed effects
+    - The changes may be distinct by column: simplest, then add controls, then no controls but fixed effects
 
-- Your specification change may just mean a new dependent variable, in which case put the dependent variable in the header
+- Your specification change may just mean a new dependent variable, in which case label the column as such
+    - Columns should be numbered
 
-- Each row should be a variable in the regression or summarize information about the regression ($N$ is number of observations)
-
-- Columns should be numbered
-
-- After variables, throw in a horizontal line and then some summary information:
+- Each row should be a key independent variable, then some summary information below:
     1. Standard error type, any clustering?
     2. $R^2$ or some other measure of fit
     3. $N$ for observations
@@ -249,39 +252,11 @@ There's many, many, many, many more
 ---
 # Regression table example
 
-```{r reg,echo=FALSE,warning=FALSE,message=FALSE,out.height='80%'}
-data('airquality')
-dict = c("note 1" = "*Notes:* This data is not really random.",
-         "source 1" = "**Source:** the internet?")
-setFixest_fml(..ctrl = ~ poly(Wind, 2) + poly(Temp, 2))
-est_c0 = feols(Ozone ~ Solar.R, data = airquality)
-#> NOTE: 42 observations removed because of NA values (LHS: 37, RHS: 7).
-est_c1 = feols(Ozone ~ Solar.R + ..ctrl, data = airquality)
-#> NOTE: 42 observations removed because of NA values (LHS: 37, RHS: 7).
-est_c2 = feols(Ozone ~ Solar.R + Solar.R^2 + ..ctrl, data = airquality)
-#> NOTE: 42 observations removed because of NA values (LHS: 37, RHS: 7).
-est_c3 = feols(Ozone ~ Solar.R + Solar.R^2 + ..ctrl | Day, data = airquality)
-#> NOTE: 42 observations removed because of NA values (LHS: 37, RHS: 7).
-etable(est_c0, est_c1, est_c2, est_c3, group = list(Controls = "poly"), style.df = style.df("aer"),digits=2, postprocess.df = pandoc.table.return, style = "rmarkdown",dict=dict) %>% kable()
-```
+Note the way information is presented parsimoniously here! 
 
----
-# Regression table example
-
-```{r reg-table-subs,echo=FALSE,warning=FALSE,message=FALSE,out.height='80%'}
-est_all  = feols(Ozone ~ Solar.R + Temp + Wind, data = airquality)
-#> NOTE: 42 observations removed because of NA values (LHS: 37, RHS: 7).
-est_sub1 = feols(Ozone ~ Solar.R + Temp + Wind, data = airquality,
-                 subset = ~ Month %in% 5:6)
-#> NOTE: 28 observations removed because of NA values (LHS: 26, RHS: 4).
-est_sub2 = feols(Ozone ~ Solar.R + Temp + Wind, data = airquality,
-                 subset = ~ Month %in% 7:8)
-#> NOTE: 13 observations removed because of NA values (LHS: 10, RHS: 3).
-est_sub3 = feols(Ozone ~ Solar.R + Temp + Wind, data = airquality,
-                 subset = ~ Month == 9)
-etable(est_all, est_sub1, est_sub2, est_sub3,
-       extralines = list("Sub-sample" = c("All", "May-June", "Jul.-Aug.", "Sept.")), style.df = style.df("aer"), cluster =~Day,markdown=TRUE,dict=dict) %>% kable()
-```
+<center>
+<img src="imgs/angristpathakzarate2sls.png" alt="Regression table from Angrist Pathak and Zarate (2023) that looks like nice." width='80%'>
+</center>
 
 ---
 # Correlation tables
@@ -294,6 +269,11 @@ etable(est_all, est_sub1, est_sub2, est_sub3,
 
 ---
 # Outputting tables
+
+- Lots of software automates turning your messy output into a nice table
+    - They generally have sensible defaults
+    - And are customizable, but the more you customize the more you have to maintain
+    - Use these because you should able to update your results easily (i.e. without a day spent editing numbers in tables)
 
 - `esttab/estout` in Stata is great at outputting tables to LaTeX, Word, or Excel
     - `outreg2` is not bad either
@@ -389,7 +369,7 @@ Personally, I don't love the choice to use only 1 standard error instead of a fu
 Yagan (2015) shows C- and S-corp business practices move togethewr until a dividend tax cut led to more payouts to C-corp shareholders.
 
 <center>
-<img src="imgs/Yagan2015.jpg" alt="Yagan (2015) shows how C- and S-corporation business practices move togethewr until a dividend tax cut for C-corps, led to more payouts to shareholders."> 
+<img src="imgs/Yagan2015.jpg" alt="Yagan (2015) shows how C- and S-corporation business practices move togethewr until a dividend tax cut for C-corps, led to more payouts to shareholders." width='80%'> 
 </center>
 
 ---
@@ -465,8 +445,8 @@ Lee (2007) shows the incumbency advantage in elections in the US House of Repres
 Coombs et al. (2021) compares our sample of Earnin users to the Current Population Survey to show a poorer population
 
 <center>
-<img src="imgs/earnin_cps_dist.pdf" alt="Coombs et al. (2021) compares our sample of Earnin users to the Current Population Survey to show a poorer population">
-</center
+<img src="imgs/Coombs2021dist.png" alt="Coombs et al. (2021) compares our sample of Earnin users to the Current Population Survey to show a poorer population">
+</center>
 
 ---
 # Maps
@@ -478,19 +458,16 @@ https://www.urban.org/research/publication/road-school-how-far-students-travel-s
 ---
 # Don'ts and things to avoid
 
-- Don't make elaborate 3D figures unless you must
-    - They're hard to read and often misleading
+- Don't make elaborate 3D figures unless you must (they're hard to read and often misleading)
 
 - Don't make pie charts
     - They're hard to read and often misleading
     - Use a bar chart to show the same information for categorical data and have an easy dimension (height) to compare size across categories
     - If you want to tell me the shares of something, just present a table
 
-- Avoid y-axes that don't start at 0
-    - This can be misleading, but you can break this rule
+- Avoid y-axes that don't start at 0 (unless you have good reason)
 
-- Avoid having a separate left and right y axis
-    - This can be misleading, but you can break this rule for the right case 
+- Avoid having a separate left and right y axis (unless you have a good reason)
     - I did this at the Federal Reserve a lot because I believe Janet Yellen liked them
 
 - Lots of other don'ts: 
@@ -591,6 +568,26 @@ OR: .red[D] is an alternate analysis I can run that does not assume .red[A], all
 
 5. If it turns out that .red[[A is not true OR B is a big problem]], then I will do E instead of my original analysis.
 
+
+---
+# Common robustness checks
+
+1. Change how you define your key outcome
+
+2. Change how you define your sample (e.g. drop outliers, change sample selection criteria)
+    - Require a balanced panel OR allow for unbalanced panel
+
+3. Show placebo outcomes that should not be affected
+    - If a reform should only affect people born after 1980, show that it does not affect people born before 1980
+
+4. In the case of diff-in-diff, do you compare early treated to later treated (almost certainly if you use OLS)
+    - Use tools like Goodman-Bacon decomposition to show how much these cases matter (or don't)
+    - Try flashier specifications (stacked DiD is often the easiest) to see if the results change (often they don't)
+
+#### Always change one thing at a time
+
+Others by [Tatyana Deryugina](https://deryugina.com/some-tips-for-robustness-checks-and-empirical-analysis-in-general/)
+
 ---
 # Let's think about diff-in-diff
 
@@ -618,9 +615,10 @@ $$\text{Wages}_{it} = \alpha + \beta \text{Post-Mandate}_{it} + \lambda_i + \lam
 
 ---
 # Results
+class: white-slide
 
 <center>
-<img src="imgs/diffindiff-gruber.jpg" alt="Gruber diff-in-diff results.">
+<img src="imgs/diffindiff-gruber.jpg" alt="Gruber diff-in-diff results." width='90%'>
 </center>
 
 ---
@@ -637,11 +635,11 @@ $$\text{Wages}_{it} = \alpha + \beta \text{Post-Mandate}_{it} + \lambda_i + \lam
 - Do a diff-in-diff for this placebo group, subtract that out of the original diff-in-diff, and see if the effect changes
 
 ---
+class: white-slide
 
 <center>
-<img src="imgs/triplediff-gruber.jpg" alt="Gruber diff-in-diff results.">
+<img src="imgs/triplediff-gruber.jpg" alt="Gruber diff-in-diff results." width='70%'>
 </center>
-
 
 ---
 class: inverse, center, middle
@@ -651,5 +649,5 @@ class: inverse, center, middle
 
 ```{r gen_pdf, include = FALSE, cache = FALSE, eval = TRUE}
 infile = list.files(pattern = '.html')
-#pagedown::chrome_print(input = infile, timeout = 100)
+pagedown::chrome_print(input = infile, timeout = 100)
 ```
