@@ -93,7 +93,7 @@ leave: expectations are very high.
 | Feb 27-Feb 29 |  Methods([Diff in Diff](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/11-diff-in-diff/11-diff-in-diff.html#1), [Instrumental Variables](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#1), [Regression Discontinuity](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/12-regression-discontinuity/12-regression-discontinuity.html#1)), Data Description | [Angrist & Pischke (2008)  Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Posts by Andrew Baker on implementation of DiD](https://andrewcbaker.netlify.app/#articles) | [Replication documentation](assignments/replication_documentation.md), [Labs by Scott Cunningham](https://github.com/Mixtape-Sessions/Causal-Inference-2/tree/main?tab=readme-ov-file) |
 | Mar 5-7 | Results, Individual Meetings | | [Methods Section](assignments/methods_and_data.md) |
 | Mar 12-14 | Data Presentations | | [Data Section](assignments/methods_and_data.md) |
-| Mar 19-21 | Results workshop | [Robustness checks](https://www.nickchk.com/robustness.html) | |
+| Mar 19-21 | [Results workshop](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/06-results-workshop/06-results-workshop.html#1) | [Robustness checks](https://www.nickchk.com/robustness.html) | |
 | Mar 26-28 | Individual Meetings, Poster Workshop | | Results due |
 | Apr 2-4 | Practice Presentations | [Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf) | |
 | Apr 9-11 | Final Presentations | | |
