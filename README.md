@@ -94,7 +94,7 @@ leave: expectations are very high.
 | Mar 5-7 | Results, Individual Meetings | | [Methods Section](assignments/methods_and_data.md) |
 | Mar 12-14 | Data Presentations | | [Data Section](assignments/methods_and_data.md) |
 | Mar 19-21 | [Results workshop](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/06-results-workshop/06-results-workshop.html#1) | [Robustness checks](https://www.nickchk.com/robustness.html) | |
-| Mar 26-28 | Individual Meetings, Poster Workshop | | Results due |
+| Mar 26-28 | Individual Meetings, [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/) | | Results due |
 | Apr 2-4 | Practice Presentations | [Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf) | |
 | Apr 9-11 | Final Presentations | | |
 | April 12th | Poster Session | | |
