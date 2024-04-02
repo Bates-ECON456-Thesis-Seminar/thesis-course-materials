@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+## SEND POSTER TO BE PRINTED APRIL 8th
+
 ## Final poster (Departmental Poster Session on 4/12 in Pettengill, 4:15-5:30pm)
 
 This document provides suggestions for creating your poster. The structure is ultimately up to
