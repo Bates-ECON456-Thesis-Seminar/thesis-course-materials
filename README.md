@@ -142,7 +142,7 @@ leave: expectations are very high.
 ### Apr 1
 **Topic:** [Public speaking for academic economists by Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf), Practice Presentations
 
-### Apr 9
+### Apr 8
 **Topic:** Final Presentations  
 **Assignments:** [Poster assignment due to Post-and-print April 7th](assignments/poster_prompt.md)
 
