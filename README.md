@@ -4,13 +4,13 @@ This repository contains those materials used to provide guidance on the Winter 
 
 ## Class times
 
-Tuesdays and Thursdays from 1:10pm to 2:30pm.
+Tuesdays arom 7:30pm to 10:30pm.
 
 ### E-mail: kcoombs@bates.edu
 
 You can also tag me @kgcsport in Issues and Discussions. 
 
-### Office: Pettengill 277
+### Office: Pettengill 161
 
 Full syllabus is available [here](https://github.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/blob/main/syllabus.md) or as a [PDF](https://github.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/blob/main/syllabus.pdf).
 
