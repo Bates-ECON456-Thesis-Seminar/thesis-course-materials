@@ -116,7 +116,6 @@ leave: expectations are very high.
 **Reading:** [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf)  
 **Assignments:** [Data Report](assignments/data_report.md) 
 
-
 ### March 1
 **Topic:** Results
 **Reading:** [Angrist & Pischke (2008) Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Posts by Andrew Baker on implementation of DiD](https://andrewcbaker.netlify.app/#articles)  
