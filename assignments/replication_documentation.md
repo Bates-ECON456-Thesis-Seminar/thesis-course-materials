@@ -1,4 +1,7 @@
 # Replication Documentation
+
+Due: See [Course Calendar](../README.md)
+
 This assignment entails completing one “thesis assignment”:
 
 ### Note: You will not be able to do all of this right now. You will be able to get started -- eventually, you will need to complete all of these steps. 

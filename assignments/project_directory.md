@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Due: See [Course Calendar](../README.md)
+
 ## Create a GitHub Repository and Project Directory
 
 ### GitHub Repository

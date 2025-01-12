@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Due: See [Course Calendar](../README.md)
+
 ## Data Section
 
 This document is intended to give you some guidelines for your Data presentations and write-
@@ -22,9 +24,9 @@ Most of you should have complete responses for each item, but in some instances 
 may remain incomplete. If you are in this scenario, please clear it with me and present what you
 can as well as a plan for incomplete elements.
 
-###  Writeup: Due March 14th
+###  Writeup
 
-For Thursday 3/14, please submit a draft of your data
+Please submit a draft of your data. 
 section in your GitHub repository and bring two hard copies to class. Your draft should cover each of the elements
 above (to the extent possible). I am not providing a specific page limit, but I suspect 3-6 pages will
 be reasonable in most cases. I encourage you to re-read several data sections from published

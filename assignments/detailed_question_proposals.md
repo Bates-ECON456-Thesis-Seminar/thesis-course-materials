@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Due: See [Course Calendar](../README.md)
+
 ## 2 Detailed Question Proposals
 
 One semester is a short period to complete a high-quality original research project. The objective of this assignment is to make you think about the project carefully and rigorously. Please complete the following tasks prior to our first one-on-one meeting. For each of two potential research questions answer the following questions. It is fine to organize your summary under 5 section headers. Write no more than 2 pages for each research question.

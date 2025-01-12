@@ -60,7 +60,7 @@ I encourage you to use a markdown or LaTeX file to write your thesis. They are d
 
 If you choose to use Microsoft Word, you can push the `.docx` to your repository. If you are using Google Docs, please provide a link to the Google Doc in your README file. 
 
-These are called WYSWYG (What You See is What You Get) editors. They can make updating figures, equations, tables, and references difficult, but they are more user-friendly at first. 
+These are called WYSWYG (What You See is What You Get) editors. They are more user-friendly, but make it much more tedious to keep figures, equations, tables, and references up-to-date.
 
 ### Issues submitting work
 
@@ -81,21 +81,76 @@ on the projects of other students in the class. In this class, all students are 
 participate and arrive prepared to do so. Students who are blatantly unprepared may be asked to
 leave: expectations are very high.
 
-| Class | Topic | Reading | Assignment |
-| --- | --- | --- | --- |
-| Jan 11 | Research Questions ([html](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/01-getting-started.html), [pdf](raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/01-getting-started/01-getting-started.pdf)) | [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf), [Sommer (2023)](literature/Sommer_EduExpCPS-FE-2023.pdf), [Logani (2022)](literature/Logani-Final-Thesis-Updated.pdf) | Two research questions |
-| Jan 16-18 | What makes research "good"? | [Angrist & Pischke (2008) Ch. 1](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf) | Create Project Directory and GitHub Repository, Previous Thesis Report |
-| Jan 23-25 | Pitches, [Identification](https://nickch-k.github.io/introcausality/Lectures/Lecture_13_Causality.html#/so) | [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html) | [5-minute presentations of ideas](assignments/initial_pitch.md), [Two detailed question proposals](assignments/detailed_question_proposals.md) | 
-| Jan 30-Feb 1 | Individual Meetings, [Writing](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/03-economical-writing/03-economical-writing.html#1) | [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf) | presentation slots given out |
-| Feb 6-8 | Proposal | [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)](https://blogs.ubc.ca/khead/research/research-advice/formula). [McCloskey (1993)](literature/Economical-Writing-McCloskey-1993.pdf) | [Proposal Presentations](assignments/introduction_presentation.md), [Proposal/Introduction](assignments/introduction_presentation.md) |
-| Feb 13-15 | [Reproducible Research](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/02-empirical-workflow/02-empirical-workflow.html#1), [Git in five minutes](https://alicelepissier.com/git-tutorial/slides.html) | [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf) | [Data Report](assignments/data_report.md) |
-| Feb 20-22 | Break | | |
-| Feb 27-Feb 29 |  Methods([Diff in Diff](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/11-diff-in-diff/11-diff-in-diff.html#1), [Instrumental Variables](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#1), [Regression Discontinuity](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/12-regression-discontinuity/12-regression-discontinuity.html#1)), Data Description | [Angrist & Pischke (2008)  Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Posts by Andrew Baker on implementation of DiD](https://andrewcbaker.netlify.app/#articles) | [Replication documentation](assignments/replication_documentation.md), [Labs by Scott Cunningham](https://github.com/Mixtape-Sessions/Causal-Inference-2/tree/main?tab=readme-ov-file) |
-| Mar 5-7 | Results, Individual Meetings | | [Methods Section](assignments/methods_and_data.md) |
-| Mar 12-14 | Data Presentations | | [Data Section](assignments/methods_and_data.md) |
-| Mar 19-21 | [Results workshop](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/06-results-workshop/06-results-workshop.html#1) | [Robustness checks](https://www.nickchk.com/robustness.html) | |
-| Mar 26-28 | Individual Meetings, [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/) | | Results due |
-| Apr 2-4 | [Public speaking for academic economists by Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf), Practice Presentations | | |
-| Apr 9-11 | Final Presentations | | [Poster assignment due to Post-and-print April 8th](assignments/poster_prompt.md) |
-| April 12th | Poster Session | [Post-and-print guidelines](https://www.bates.edu/post-and-print/poster-printing/), [Bates wordmarks](https://www.bates.edu/communications-marketing/design-services-1/downloads/), [Academic guidelines](https://www.bates.edu/academics/student-research/poster-session-2023/poster-mechanics/), [Poster-making for Mount David Summit](https://drive.google.com/drive/u/2/folders/1hfQcBbbC-Jl0KI6m5hsDvCDdodlnV7OY) | |
-| April 18 | No class - Final Exams | | Final Documentation and Thesis |
+## Timeline
+
+### Jan 14
+**Topic:** [Research Questions](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/01-getting-started.html), [What makes research "good"?](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/02-good-research.html)
+**Reading:** Angrist & Pischke (2008) Ch. 1, [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf), [Sommer (2023)](literature/Sommer_EduExpCPS-FE-2023.pdf), [Logani (2022)](literature/Logani-Final-Thesis-Updated.pdf)  
+**Assignments:** Two research questions
+
+### Jan 21
+**Topic:** Librarian visit
+**Assignments:** Create Project Directory and GitHub Repository, Previous Thesis Report, [Two detailed question proposals](assignments/detailed_question_proposals.md)
+
+### Jan 28
+**Topic:** Pitches, [Identification](https://nickch-k.github.io/introcausality/Lectures/Lecture_13_Causality.html#/so), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf)  
+**Reading:** [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html)  
+**Assignments:** [Annotated bibliography](assignments/annotated_bibliography.md)
+**Presentation:** [5-minute presentations of ideas](assignments/initial_pitch.md)
+
+### Feb 4
+**Topic:** Individual Meetings, [Writing](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/03-economical-writing/03-economical-writing.html#1)  
+**Reading:** [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf)  
+**Presentation:** [Proposal Presentations](assignments/introduction_presentation.md)
+
+### Feb 11
+**Topic:** [Reproducible Research](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/02-empirical-workflow/02-empirical-workflow.html#1), Proposal  
+**Reading:** [Bellemare (2020)](literature/How-to-Write-Applied-Papers-Bellemare-2020.pdf), [Head (2008)](https://blogs.ubc.ca/khead/research/research-advice/formula), [McCloskey (1993)](literature/Economical-Writing-McCloskey-1993.pdf)  
+**Assignments:** [Proposal/Introduction](assignments/introduction_presentation.md)
+
+### Feb 18
+**Topic:** Break
+
+### Feb 25
+**Topic:** Methods ([Diff in Diff](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/11-diff-in-diff/11-diff-in-diff.html#1), [Instrumental Variables](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#1), [Regression Discontinuity](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/12-regression-discontinuity/12-regression-discontinuity.html#1))
+**Reading:** [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf)  
+**Assignments:** [Data Report](assignments/data_report.md) 
+
+
+### March 1
+**Topic:** Results
+**Reading:** [Angrist & Pischke (2008) Ch. 5](https://jonnyphillips.github.io/FLS6415/Class_3/Angrist%20&%20Pischke.pdf), [Posts by Andrew Baker on implementation of DiD](https://andrewcbaker.netlify.app/#articles)  
+**Assignments:** [Replication documentation](assignments/replication_documentation.md), [Labs by Scott Cunningham](https://github.com/Mixtape-Sessions/Causal-Inference-2/tree/main?tab=readme-ov-file)
+**Presentation**: [Data Section](assignments/data_section.md)
+
+### Mar 8
+**Topic:** Individual Meetings  
+**Assignments:** [Data section](assignments/methods_and_data.md)
+
+### Mar 15
+**Topic:** 
+**Assignments:** [Methods Section](assignments/methods_and_data.md)
+**Presentation:** [Methods and data section](assignments/methods_and_data.md)
+
+### Mar 22
+**Topic:** [Results workshop](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/06-results-workshop/06-results-workshop.html#1)  
+**Reading:** [Robustness checks](https://www.nickchk.com/robustness.html)
+
+### Mar 29
+**Topic:** Individual Meetings, [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/)  
+**Assignments:** Results due
+
+### Apr 1
+**Topic:** [Public speaking for academic economists by Meager (2017)](literature/Public-Speaking-for-Academic-Economists-Meager.pdf), Practice Presentations
+
+### Apr 9
+**Topic:** Final Presentations  
+**Assignments:** [Poster assignment due to Post-and-print April 7th](assignments/poster_prompt.md)
+
+### Apr 11
+**Topic:** Poster Session  
+**Reading:** [Post-and-print guidelines](https://www.bates.edu/post-and-print/poster-printing/), [Bates wordmarks](https://www.bates.edu/communications-marketing/design-services-1/downloads/), [Academic guidelines](https://www.bates.edu/academics/student-research/poster-session-2023/poster-mechanics/), [Poster-making for Mount David Summit](https://drive.google.com/drive/u/2/folders/1hfQcBbbC-Jl0KI6m5hsDvCDdodlnV7OY)
+
+### Apr 18
+**Topic:** No class - Final Exams  
+**Assignments:** Final Documentation and Thesis

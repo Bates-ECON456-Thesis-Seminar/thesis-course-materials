@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Due: See [Course Calendar](../README.md)
+
 This assignment has two parts. The first part is a data report. The second part is documentation. 
 
 ## 1. Data: Raw & Importable Files

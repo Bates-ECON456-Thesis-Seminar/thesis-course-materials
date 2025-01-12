@@ -1,17 +1,17 @@
 ## Methods & Data
 
-For this phase of your project, you will complete the following assignments.
-1. Presentation: Methods & Data due 3/14
-2. Thesis: Methods & Data due 3/7 and 3/14
+Due: See [Course Calendar](../README.md)
 
-1. Presentation: Methods & Data. You will prepare a brief presentation summarizing your
+For this phase of your project, you will complete the following assignments.
+1. Presentation
+2. Thesis
+
+3. Presentation: Methods & Data. You will prepare a brief presentation summarizing your
 methods and data. The presentation should be 2-5 minutes and no more than 3 presentation
 slides (not including a “works cited” slide). The presentation will be followed by 5-10
-minutes of questions and discussion with the class. You will be assigned a presentation date
-on 3/7. Please share your slides with Prof Coombs before the start of class on your
-presentation date either as Google Slides or as a PDF via email.
+minutes of questions and discussion with the class. You will be assigned a presentation date. Please share your slides with Prof Coombs before the start of class on your presentation date either as Google Slides or as a PDF via email.
 
-2. Thesis: Methods & Data . This assignment entails the completion and submission of three
+1. Thesis: Methods & Data . This assignment entails the completion and submission of three
 components:
     1. Methods & Data
     2. Data Appendix

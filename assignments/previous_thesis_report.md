@@ -1,5 +1,7 @@
 # ECON 456: Senior Thesis Seminar
 
+Due: See [Course Calendar](../README.md)
+
 Please write up a brief explanation and upload to your GitHub repository in a "Notes" folder. 
 
 ## Previous Thesis Report

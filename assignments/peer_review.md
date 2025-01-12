@@ -1,6 +1,8 @@
 
 ## Peer review
 
+Due: See [Course Calendar](../README.md)
+
 Each of you will switch papers with a partner. Then we will spend 20 minutes reading each other's papers and marking them up and getting a sense. I will ask you to post to your partner's GitHub Discussion posts to answer the following questions:
 
 ### Summary 
