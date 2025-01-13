@@ -4,7 +4,7 @@ This repository contains those materials used to provide guidance on the Winter 
 
 ## Class times
 
-Tuesdays arom 7:30pm to 10:30pm.
+Tuesdays from 7:30pm to 10:30pm.
 
 ### E-mail: kcoombs@bates.edu
 

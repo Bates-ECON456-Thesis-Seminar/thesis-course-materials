@@ -11,7 +11,7 @@ colorlinks: true
 
 # ECON 456D: Senior Thesis Seminar
 *Professor Kyle Coombs (he/him/his)*  
-Winter 2024
+Winter 2025
 
 <!-- To render as a PDF -> syllabus.md -s -o syllabus.pdf -->
 
@@ -23,13 +23,13 @@ GitHub: @kgcsport
 
 - Office Hours: T, 3-4pm, W 10:30-11:30am, or by request (Zoom or in-person)
 - Class Hours: T/Th 1:10-2:30pm
-- Office: PGill 277
-- Classroom: Roger Williams Hall 413
+- Office: PGill 161
+- Classroom: PGill 127
 
 Course Website: [https://github.com/Bates-ECON456-Thesis-Seminar](https://github.com/Bates-ECON456-Thesis-Seminar)  
 OH Link: [https://calendar.app.google/XF36Ujpg9NcJbSD58](https://calendar.app.google/XF36Ujpg9NcJbSD58)
 
-_You can get in touch with me via email, but please always write **[ECON 456 - Senior Thesis]** in the subject. Alternatively, as you start using GitHub, you can raise an issue and type @kgcsport to get my attention. Please add me as a collaborator on your page as well. I will aim to respond as quickly as possible via email or if beneficial to the class, I will share with everyone._
+_You can get in touch with me via email, but please always write **[ECON 456 - Senior Thesis]** in the subject. Alternatively, as you start using GitHub, you can raise an issue/post in discussions and type @kgcsport to get my attention. Please add me as a collaborator on your page as well. I will aim to respond as quickly as possible via email or if beneficial to the class, I will share with everyone._
 
 ---
 
