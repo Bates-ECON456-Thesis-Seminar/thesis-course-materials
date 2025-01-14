@@ -116,11 +116,9 @@ name: literature
 ---
 # Literature
 
-- How the heck do I do that? 
+- You'll want to check out the research literature on your topic
 
-- Well you'll want to check out the research literature on your topic
-
-- Not just any literature though, you should be looking at academic articles published in peer-reviewed journals:
+- You should be looking at academic articles published in top peer-reviewed journals:
     - American Economic Review
     - Quarterly Journal of Economics
     - Journal of Political Economy
@@ -130,7 +128,7 @@ name: literature
     - American Economic Journal: Applied Economics OR Economic Policy
     - Journal of Human Resources
     - Journal of Public Economics
-    - National Bureau of Economic Research (NBER) Working Papers
+    - National Bureau of Economic Research (NBER) Working Papers (rigorously vetted, but not a journal)
 
 - There are many more, but these journals are some of the most prestigious in economics
 
