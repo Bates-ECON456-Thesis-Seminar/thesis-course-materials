@@ -89,7 +89,7 @@ leave: expectations are very high.
 **Assignments:** Two research questions, [Create GitHub Repository and clone it to your computer](assignments/github_repository_project_directory.md)
 
 ### Jan 21
-**Topic:** Librarian visit
+**Topic:** Class with Christine Murray - go to Ladd 148
 **Assignments:** Previous Thesis Report, [Two detailed question proposals](assignments/detailed_question_proposals.md)
 
 ### Jan 28

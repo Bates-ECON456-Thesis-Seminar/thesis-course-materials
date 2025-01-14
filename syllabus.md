@@ -250,7 +250,7 @@ _The most up to date version of schedule can be found on the course materials we
 **Assignments:** Two research questions
 
 ### Jan 21
-**Topic:** Librarian visit
+**Topic:** Class with Christine Murray - go to Ladd 148
 **Assignments:** Create Project Directory and GitHub Repository, Previous Thesis Report, [Two detailed question proposals](assignments/detailed_question_proposals.md)
 
 ### Jan 28
@@ -276,7 +276,6 @@ _The most up to date version of schedule can be found on the course materials we
 **Topic:** Methods ([Diff in Diff](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/11-diff-in-diff/11-diff-in-diff.html#1), [Instrumental Variables](https://raw.githack.com/edrubin/EC421W19/master/LectureNotes/11InstrumentalVariables/11_instrumental_variables.html#1), [Regression Discontinuity](https://raw.githack.com/big-data-and-economics/big-data-class-materials/main/lectures/12-regression-discontinuity/12-regression-discontinuity.html#1))
 **Reading:** [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf)  
 **Assignments:** [Data Report](assignments/data_report.md) 
-
 
 ### March 1
 **Topic:** Results
