@@ -509,7 +509,7 @@ name: collaboration
 
 - Check out the other readings on the syllabus
 
-### For January 25th
+### For January 21th
 
 - Start working on [two detailed question proposals](https://github.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/blob/main/assignments/detailed_question_proposals.md)
 
