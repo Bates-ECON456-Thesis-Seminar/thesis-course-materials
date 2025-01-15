@@ -85,7 +85,7 @@ leave: expectations are very high.
 
 ### Jan 14
 **Topic:** [Research Questions](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/01-getting-started.html), [What makes research "good"?](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/02-good-research.html)
-**Reading:** Angrist & Pischke (2008) Ch. 1, [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf), [Sommer (2023)](literature/Sommer_EduExpCPS-FE-2023.pdf), [Logani (2022)](literature/Logani-Final-Thesis-Updated.pdf)  
+**Reading:** Angrist & Pischke (2008) Ch. 1, [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf)
 **Assignments:** Two research questions, [Create GitHub Repository and clone it to your computer](assignments/github_repository_project_directory.md)
 
 ### Jan 21
