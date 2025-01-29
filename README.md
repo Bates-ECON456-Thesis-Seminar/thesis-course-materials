@@ -93,7 +93,7 @@ leave: expectations are very high.
 **Assignments:** Previous Thesis Report, [Two detailed question proposals](assignments/detailed_question_proposals.md)
 
 ### Jan 28
-**Topic:** Pitches, [What makes research "good"?](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/02-good-research.html), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf)  
+**Topic:** Pitches, [What makes research "good"?](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/02-good-research/02-good-research.html#1), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf)  
 **Reading:** [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html)  
 **Assignments:** [Annotated bibliography](assignments/annotated_bibliography.md)
 **Presentation:** [5-minute presentations of ideas](assignments/initial_pitch.md)
