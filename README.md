@@ -2,15 +2,17 @@
 
 This repository contains those materials used to provide guidance on the Winter 2024 thesis seminar taught by Professor Kyle Coombs. This is a living syllabus that students can use to navigate the course. 
 
-## Class times
+## Class info
 
-Tuesdays from 7:30pm to 10:30pm.
+- Class Hours: T 7:30-10:30pm
+- Classroom: PGill 127
+- Office: PGill 161
+- Office Hours: T, 3-4pm, W 10:30-11:30am, or by request (Zoom or in-peron) 
+  - Subject to change due to schedule
 
 ### E-mail: kcoombs@bates.edu
 
 You can also tag me @kgcsport in Issues and Discussions. 
-
-### Office: Pettengill 161
 
 Full syllabus is available [here](https://github.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/blob/main/syllabus.md) or as a [PDF](https://github.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/blob/main/syllabus.pdf).
 
