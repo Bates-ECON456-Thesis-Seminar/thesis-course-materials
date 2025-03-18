@@ -139,7 +139,7 @@ leave: expectations are very high.
 
 ### Apr 1
 **Topic:** Individual Meetings, [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/)  
-**Assignments:** Results due
+**Assignments:** [Results due](assignments/results.md)
 
 ### Apr 8
 **Topic:** Final Presentations  
