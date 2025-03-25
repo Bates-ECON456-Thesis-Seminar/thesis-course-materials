@@ -134,12 +134,12 @@ leave: expectations are very high.
 **Presentation:** [Methods](assignments/methods.md)
 
 ### Mar 25
-**Topic:** [Results workshop](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/06-results-workshop/06-results-workshop.html#1)  
+**Topic:** [Results workshop](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/06-results-workshop/06-results-workshop.html#1), Individual meetings as needed
 **Reading:** [Robustness checks](https://www.nickchk.com/robustness.html)
 
 ### Apr 1
-**Topic:** Individual Meetings, [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/)  
-**Assignments:** [Results due](assignments/results.md)
+**Topic:** [Results presentation](assignments/results_presentation.md), [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/)  
+**Assignments:** [Results due](assignments/results.md), [Results presentation](assignments/results_presentation.md)
 
 ### Apr 8
 **Topic:** Final Presentations  
