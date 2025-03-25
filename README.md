@@ -86,7 +86,7 @@ leave: expectations are very high.
 ## Timeline
 
 ### Jan 14
-**Topic:** [Research Questions](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/01-getting-started/01-getting-started.html)
+**Topic:** [Research Questions](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/01-getting-started/01-getting-started.html)
 **Reading:** Angrist & Pischke (2008) Ch. 1, [Four Steps](literature/Applied-Micro-Steps-Shapiro.pdf), [Frick et al. (2023)](literature/NetflixStreaming-DiD-EventStudy_2021.pdf)
 **Assignments:** Two research questions, [Create GitHub Repository and clone it to your computer](assignments/github_repository_project_directory.md)
 
@@ -95,13 +95,13 @@ leave: expectations are very high.
 **Assignments:** Previous Thesis Report, [Two detailed question proposals](assignments/detailed_question_proposals.md)
 
 ### Jan 28
-**Topic:** Pitches, [What makes research "good"?](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/02-good-research/02-good-research.html#1), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf)  
+**Topic:** Pitches, [What makes research "good"?](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/02-good-research/02-good-research.html#1), [Applied Micro Talk](literature/Applied-Micro-Talk-Shapiro.pdf)  
 **Reading:** [The Effect Ch. 5](https://theeffectbook.net/ch-Identification.html)  
 **Assignments:** [Annotated bibliography](assignments/annotated_bibliography.md)
 **Presentation:** [5-minute presentations of ideas](assignments/initial_pitch.md)
 
 ### Feb 4
-**Topic:** Individual Meetings, [Writing](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/03-economical-writing/03-economical-writing.html#1)  
+**Topic:** Individual Meetings, [Writing](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/03-economical-writing/03-economical-writing.html#1)  
 **Reading:** [Hidden Decisions](literature/The-Influence-of-Hidden-Researcher-Decisions-in-Applied-Microeconomics-HK.pdf)  
 **Presentation:** [Proposal Presentations](assignments/introduction_presentation.md)
 
@@ -114,7 +114,7 @@ leave: expectations are very high.
 **Topic:** Break
 
 ### Feb 25
-**Topic:** [Replication and Clean Code](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/04-replication/04-replication.html#1)
+**Topic:** [Replication and Clean Code](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/04-replication/04-replication.html#1)
 **Reading:** [Practioner's Guide](literature/CodeAndData-Gentzkow-Shapiro.pdf)  
 **Assignments:** [Data Report](assignments/data_report.md) 
 
@@ -134,7 +134,7 @@ leave: expectations are very high.
 **Presentation:** [Methods](assignments/methods.md)
 
 ### Mar 25
-**Topic:** [Results workshop](https://raw.githack.com/Bates-ECON456-Thesis-Seminar/thesis-course-materials/main/lecture/06-results-workshop/06-results-workshop.html#1)  
+**Topic:** [Results workshop](https://bates-econ456-thesis-seminar.github.io/thesis-course-materials//lecture/06-results-workshop/06-results-workshop.html#1)  
 **Reading:** [Robustness checks](https://www.nickchk.com/robustness.html)
 
 ### Apr 1
