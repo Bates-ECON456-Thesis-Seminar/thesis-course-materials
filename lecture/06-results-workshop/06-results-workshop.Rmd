@@ -32,17 +32,19 @@ opts_chunk$set(
   fig.height=4, #fig.width=6,
   # out.width="748px", #out.length="520.75px",
   dpi=300, #fig.path='Figs/',
-  cache=T#, echo=F, warning=F, message=F
+  cache=F#, echo=F, warning=F, message=F
   )
 library(tidyverse)
 library(fixest)
 library(pander)
 library(RefManageR)
+
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
            style = "markdown",
            hyperlink = FALSE,
            dashed = TRUE)
+options(tigris_use_cache=TRUE)
 #biblio <- ReadBib("../../References/References.bib", check = FALSE)
 ```
 
@@ -447,6 +449,62 @@ Coombs et al. (2021) compares our sample of Earnin users to the Current Populati
 <center>
 <img src="imgs/Coombs2021dist.png" alt="Coombs et al. (2021) compares our sample of Earnin users to the Current Population Survey to show a poorer population">
 </center>
+
+---
+# Maps (R example with sf)
+
+```{r map-example, echo=TRUE, eval=FALSE,warning=FALSE, message=FALSE}
+library(sf)
+library(tidyverse)
+library(tidycensus)
+
+# Load data
+us_states <- get_acs(geography = "state", 
+    variables = "B01003_001", 
+    year = 2020, geometry = TRUE) %>%
+    filter(NAME!="Alaska" & NAME!="Hawaii")
+
+# Plot data
+ggplot(us_states,aes(fill=estimate)) +
+  geom_sf() +
+  scale_fill_viridis_c()
+```
+
+Guide here: https://big-data-and-economics.github.io/big-data-class-materials/lectures/08-spatial/08-spatial.html#BONUS_1:_Where_to_get_map_data
+
+---
+# Maps (R example with sf)
+
+```{r map-example-eval, echo=FALSE, eval=TRUE,warning=FALSE, message=FALSE}
+library(sf)
+library(tidyverse)
+library(tidycensus)
+
+# Load data
+us_states <- suppressMessages(get_acs(geography = "state", 
+    variables = "B01003_001", 
+    year = 2020, geometry = TRUE,cache_table=TRUE)) %>%
+    filter(NAME!="Alaska" & NAME!="Hawaii")
+
+# Plot data
+ggplot(us_states,aes(fill=estimate)) +
+  geom_sf() +
+  theme_minimal() +
+  labs(title="Population",
+       subtitle="2020 ACS",
+       fill="Population") +
+  scale_fill_viridis_c()
+```
+---
+# Maps (maptile/spmap in Stata)
+
+- Maptile and spmap are useful tools for mapmaking in Stata
+- Spmap is a command that allows you to make maps using shapefiles
+- Maptile is a wrapper for spmap
+- You can install them with `ssc install spmap` and `ssc install maptile`
+- You can also install shapefiles you find with `maptile_install`
+
+Handy guide: https://files.michaelstepner.com/maptile%20slides%202015-03%20_handout.pdf
 
 ---
 # Maps

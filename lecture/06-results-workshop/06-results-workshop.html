@@ -443,6 +443,44 @@ Coombs et al. (2021) compares our sample of Earnin users to the Current Populati
 &lt;/center&gt;
 
 ---
+# Maps (R example with sf)
+
+
+``` r
+library(sf)
+library(tidyverse)
+library(tidycensus)
+
+# Load data
+us_states &lt;- get_acs(geography = "state", 
+    variables = "B01003_001", 
+    year = 2020, geometry = TRUE) %&gt;%
+    filter(NAME!="Alaska" &amp; NAME!="Hawaii")
+
+# Plot data
+ggplot(us_states,aes(fill=estimate)) +
+  geom_sf() +
+  scale_fill_viridis_c()
+```
+
+Guide here: https://big-data-and-economics.github.io/big-data-class-materials/lectures/08-spatial/08-spatial.html#BONUS_1:_Where_to_get_map_data
+
+---
+# Maps (R example with sf)
+
+&lt;img src="06-results-workshop_files/figure-html/map-example-eval-1.png" style="display: block; margin: auto;" /&gt;
+---
+# Maps (maptile/spmap in Stata)
+
+- Maptile and spmap are useful tools for mapmaking in Stata
+- Spmap is a command that allows you to make maps using shapefiles
+- Maptile is a wrapper for spmap
+- You can install them with `ssc install spmap` and `ssc install maptile`
+- You can also install shapefiles you find with `maptile_install`
+
+Handy guide: https://files.michaelstepner.com/maptile%20slides%202015-03%20_handout.pdf
+
+---
 # Maps
 
 Advanced is an interactive map like this one by Urban Institute: 
