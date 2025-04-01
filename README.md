@@ -138,7 +138,7 @@ leave: expectations are very high.
 **Reading:** [Robustness checks](https://www.nickchk.com/robustness.html)
 
 ### Apr 1
-**Topic:** [Results presentation](assignments/results_presentation.md), [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/)  
+**Topic:** [Results presentation](assignments/results_presentation.md), [Poster Workshop](https://www.bates.edu/post-and-print/poster-printing/), [Public Speaking slides](https://www.princeton.edu/~reddings/tradephd/public_speaking_for_academic_economists.pdf)
 **Assignments:** [Results due](assignments/results.md), [Results presentation](assignments/results_presentation.md)
 
 ### Apr 8
